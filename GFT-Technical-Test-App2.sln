@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GFT-Technical-Test-App2", "GFT-Technical-Test-App2\GFT-Technical-Test-App2.csproj", "{B3A440CC-F8EE-4335-8EE4-3EDDCCC7530D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{9CC39816-2BE1-4C30-BAD2-9A580D042E0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{6D17274B-CCDF-422F-9956-ECB0CF83F608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GFT-Technical-Test-App.ApplicationService", "GFT-Technical-Test-App.ApplicationService\GFT-Technical-Test-App.ApplicationService.csproj", "{6F23D21C-E0B9-4656-AC05-5893271D0789}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{3CD6FED2-0C7F-4DC4-BBB3-1D14AAC58B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GFT-Technical-Test-App.Domain", "GFT-Technical-Test-App.Domain\GFT-Technical-Test-App.Domain.csproj", "{9C7911A3-22C5-40CD-BC52-7BBB3EBEFB43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Test", "4 - Test", "{95F9342B-E8E8-4EDF-83CC-4B5A1CCB4D41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GFT-Technical-Test-App.UnitTests", "GFT-Technical-Test-App.UnitTests\GFT-Technical-Test-App.UnitTests.csproj", "{4A0417F4-4D71-43DA-96DB-A8EA95F839C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3A440CC-F8EE-4335-8EE4-3EDDCCC7530D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A440CC-F8EE-4335-8EE4-3EDDCCC7530D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A440CC-F8EE-4335-8EE4-3EDDCCC7530D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A440CC-F8EE-4335-8EE4-3EDDCCC7530D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F23D21C-E0B9-4656-AC05-5893271D0789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F23D21C-E0B9-4656-AC05-5893271D0789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F23D21C-E0B9-4656-AC05-5893271D0789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F23D21C-E0B9-4656-AC05-5893271D0789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C7911A3-22C5-40CD-BC52-7BBB3EBEFB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7911A3-22C5-40CD-BC52-7BBB3EBEFB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7911A3-22C5-40CD-BC52-7BBB3EBEFB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7911A3-22C5-40CD-BC52-7BBB3EBEFB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A0417F4-4D71-43DA-96DB-A8EA95F839C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0417F4-4D71-43DA-96DB-A8EA95F839C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0417F4-4D71-43DA-96DB-A8EA95F839C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0417F4-4D71-43DA-96DB-A8EA95F839C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3A440CC-F8EE-4335-8EE4-3EDDCCC7530D} = {9CC39816-2BE1-4C30-BAD2-9A580D042E0A}
+		{6F23D21C-E0B9-4656-AC05-5893271D0789} = {6D17274B-CCDF-422F-9956-ECB0CF83F608}
+		{9C7911A3-22C5-40CD-BC52-7BBB3EBEFB43} = {3CD6FED2-0C7F-4DC4-BBB3-1D14AAC58B28}
+		{4A0417F4-4D71-43DA-96DB-A8EA95F839C4} = {95F9342B-E8E8-4EDF-83CC-4B5A1CCB4D41}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4F648C6-E90C-4678-BF20-1D4442ED10D2}
+	EndGlobalSection
+EndGlobal

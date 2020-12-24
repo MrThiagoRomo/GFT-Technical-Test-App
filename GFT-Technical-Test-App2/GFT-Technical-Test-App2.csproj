@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <RootNamespace>GFT_Technical_Test_App2</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GFT-Technical-Test-App.ApplicationService\GFT-Technical-Test-App.ApplicationService.csproj" />
+    <ProjectReference Include="..\GFT-Technical-Test-App.Domain\GFT-Technical-Test-App.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
